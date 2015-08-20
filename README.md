@@ -2,6 +2,7 @@
 
 Add a button to osmo.mobi to enable/disable auto map recenter.
 
+![](screenshot.png)
 
 ## Usage :
 
