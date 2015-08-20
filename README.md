@@ -1,4 +1,4 @@
-# osmo.mobi panTo_control
+# osmo.mobi panTo control
 
 Add a button to osmo.mobi to enable/disable auto map recenter.
 
