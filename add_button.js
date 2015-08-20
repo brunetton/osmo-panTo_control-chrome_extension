@@ -1,4 +1,3 @@
-alert('ll');
 var s = document.createElement('script');
 // js code to be executed in the context of the page
 // (see http://stackoverflow.com/questions/9263671/google-chome-application-shortcut-how-to-auto-load-javascript/9310273#9310273)
@@ -31,12 +30,8 @@ s.textContent = '  \
                     style="width: 36px; height: 36px; display: block;  \
                         background-image: url(&apos;' + green_icon_url + '&apos;);  \
                         background-position: 50% 50%;  \
-                        background-repeat: no-repeat;  \
-                    "  \
-                    href="#" title="Auto rencenter toggle"  \
-';
-s.textContent += 'onclick="' + onclick_function + '"';
-s.textContent += '  \
+                        background-repeat: no-repeat;"  \
+                    href="#" title="Auto rencenter toggle" onclick="' + onclick_function + '";  \
                 ></a>  \
             </div>   \
         \'); \
